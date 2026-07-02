@@ -58,7 +58,7 @@ ul, p, li, label {
 .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     margin: 20px;
     gap: 100px;
 }
@@ -121,7 +121,7 @@ footer p {
 
 #maintable {
     border: black solid 2px;
-    grid-row: 2;
+    grid-row: 3;
     width: 80%;
     height: 80%;
     margin: auto;
@@ -156,4 +156,8 @@ form {
     max-width:fit-content;
     max-height: fit-content;
     box-shadow: 1px 1px rgba(112, 112, 112, 0.719);
+}
+
+#Finalp {
+    grid-row: 2;
 }
